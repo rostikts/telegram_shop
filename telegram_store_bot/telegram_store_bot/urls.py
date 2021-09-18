@@ -5,4 +5,5 @@ BASE_API_PATH = 'api/'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path(BASE_API_PATH, include('category.urls')),
+    path(BASE_API_PATH, include('product.urls')),
 ]
