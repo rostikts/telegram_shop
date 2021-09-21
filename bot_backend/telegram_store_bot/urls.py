@@ -8,4 +8,5 @@ urlpatterns = [
     path(BASE_API_PATH, include('category.urls')),
     path(BASE_API_PATH, include('product.urls')),
     path(BASE_API_PATH, include('customer.urls')),
+    path(BASE_API_PATH, include('cart.urls'))
 ]
